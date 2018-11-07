@@ -53,6 +53,8 @@ public class ScoresActivity extends AppCompatActivity {
         score2 = findViewById(R.id.score2);
         score3 = findViewById(R.id.score3);
 
+        nameScore = new String[3];
+
         // I save user name and score in one variable. I split it into two parts before showing user name and score in separate TextViews
         nameAndScore = MainActivity.getUserName() + "_" + GameActivity.getUserScore();
 
